@@ -1,6 +1,6 @@
 ActionMailer::Base.smtp_settings = {
-  :address => "smtp.office365.com",
-  :port => 587,
+  :address => ENV['SMTP_ADDRESS'],
+  :port => ENV['SMTP_PORT'],
   :domain => Rails.application.domain,
   :enable_starttls_auto => true,
   :user_name => ENV['SMTP_USERNAME'],
