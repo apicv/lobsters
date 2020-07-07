@@ -21,7 +21,7 @@ module Lobsters
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.default_locale = :it
+    config.i18n.default_locale = :es
 
     # Raise an exception when using mass assignment with unpermitted attributes
     config.action_controller.action_on_unpermitted_parameters = :raise
@@ -63,11 +63,11 @@ class << Rails.application
   end
 
   def domain
-    "gambe.ro"
+    "recursos.profesoresinformatica.es"
   end
 
   def name
-    "gambe.ro"
+    "recursos.profesoresinformatica.es"
   end
 
   def root_url
