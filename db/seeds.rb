@@ -1,11 +1,12 @@
-User.create(:username => "test", :email => "test@example.com", :password => "test", :password_confirmation => "test", :is_admin => true, :is_moderator => true)
-puts "created user: test, password: test"
-puts "created tag: test"
-User.create(:username => "test2", :email => "test@example.co2m", :password => "test", :password_confirmation => "test", :is_admin => true, :is_moderator => true)
-puts "created user: test2, password: test2"
-
-Tag.create(tag:"eso", description:"Recursos relativos a la ESO", privileged:false, is_media:true)
-Tag.create(tag:"bachillerato", description:"Recursos relativos a Bachillerato", privileged:false, is_media:true)
-Tag.create(tag:"gm", description:"Recursos relativos a Grado Medio", privileged:false, is_media:true)
-Tag.create(tag:"gs", description:"Recursos relativos a Grado Superior", privileged:false, is_media:true)
-Tag.create(tag:"fpb", description:"Recursos relativos a la Formación Profesional Básica", privileged:false, is_media:true)
+Tag.create(tag:"eso1", description:"1º ESO", privileged:false, is_media:true)
+Tag.create(tag:"eso2", description:"2º ESO", privileged:false, is_media:true)
+Tag.create(tag:"eso3", description:"3º ESO", privileged:false, is_media:true)
+Tag.create(tag:"eso4", description:"4º ESO", privileged:false, is_media:true)
+Tag.create(tag:"bach1", description:"1º Bachillerato", privileged:false, is_media:true)
+Tag.create(tag:"bach2", description:"2º Bachillerato", privileged:false, is_media:true)
+Tag.create(tag:"asir", description:"Administración de Sistemas Informáticos en Red", privileged:false, is_media:true)
+Tag.create(tag:"dam", description:"Desarrollo de Aplicaciones Multiplataforma", privileged:false, is_media:true)
+Tag.create(tag:"daw", description:"Desarrollo de Aplicaciones Web", privileged:false, is_media:true)
+Tag.create(tag:"smr", description:"Sistemas Microinformáticos y Redes", privileged:false, is_media:true)
+Tag.create(tag:"fpbofi", description:"FPB Informática de Oficina", privileged:false, is_media:true)
+Tag.create(tag:"fpbcom", description:"FPB Informática y Comunicaciones", privileged:false, is_media:true)
